@@ -27,7 +27,7 @@ class DesieseForm(forms.Form):
 
 import ctypes
 
-libname = "pr2/polls/liblibrary3.dylib"
+libname = "/pr2/polls/liblibrary3.dylib"
 #libname = "/Users/daryabaranovskaya/C++ programming/Algorithms and Data structuresHW/untitled/libraryMax.dylib"
 
 libc = ctypes.CDLL(libname)
